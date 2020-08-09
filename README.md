@@ -12,8 +12,6 @@ Implementation of Airbnb's Amenity Detection using Detection Transformer(DETR). 
 - [ ] Deploy to GCP/AWS 
 
 
-
-
 ## Getting Started
 - Download dataset - 
 
@@ -22,3 +20,9 @@ Implementation of Airbnb's Amenity Detection using Detection Transformer(DETR). 
 |Train dataset | 34,835      |
 |Test dataset | 860          |
 |Validation dataset | 2,493  |
+
+
+## Resources 
+1. [Amenity Detection and Beyond — New Frontiers of Computer Vision at Airbnb](https://medium.com/airbnb-engineering/amenity-detection-and-beyond-new-frontiers-of-computer-vision-at-airbnb-144a4441b72e) 
+2. [DE⫶TR: End-to-End Object Detection with Transformers](https://github.com/facebookresearch/detr)
+3. [Replicating Airbnb's Amenity Detection with Detectron2](https://github.com/mrdbourke/airbnb-amenity-detection)
