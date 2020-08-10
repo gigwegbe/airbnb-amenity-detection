@@ -13,7 +13,7 @@ Implementation of Airbnb's Amenity Detection using Detection Transformer(DETR). 
 
 
 ## Getting Started
-- Download dataset - 
+- Download dataset 
 
 |First Header | Second Header|
 |------------ | -------------|
