@@ -6,7 +6,9 @@ Implementation of Airbnb's Amenity Detection using Detection Transformer(DETR). 
 
 ## Installation and Requirements
 Run the requirements file to install dependencies. 
-```pip3 install -r requirements.txt```
+```
+pip3 install -r requirements.txt
+```
 
 - Linux or macOS with Python ≥ 3.6
 - PyTorch ≥ 1.5 and [torchvision](https://github.com/pytorch/vision/) that matches the PyTorch installation.
@@ -15,10 +17,14 @@ Run the requirements file to install dependencies.
 
 ## Usage
 The following steps are required for setting up DETR:
-```git clone https://github.com/facebookresearch/detr.git```
+```
+git clone https://github.com/facebookresearch/detr.git
+```
 
 Install pycocotools(for evaluation on COCO):
-```pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'```
+```
+pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
+```
 
  
 ## Task List
