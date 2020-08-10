@@ -29,7 +29,7 @@ pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=Pyth
 
  
 ## Task List
-- [ ] Test with random sample images.
+- [x] Test with random sample images.
 - [ ] Data collection -  obtain data from Google Open Images Dataset V4 - [Link](https://storage.googleapis.com/openimages/web/download.html)
 - [ ] Train an object detection model on this data using codebase from DeTr repo.
 - [ ] Build an interactive web interface using Streamlit 
