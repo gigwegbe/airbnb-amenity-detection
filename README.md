@@ -9,26 +9,16 @@ Run the requirements file to install dependencies.
 `pip3 install -r requirements.txt`
 
 - Linux or macOS with Python ≥ 3.6
-- PyTorch ≥ 1.4 and [torchvision](https://github.com/pytorch/vision/) that matches the PyTorch installation.
+- PyTorch ≥ 1.5 and [torchvision](https://github.com/pytorch/vision/) that matches the PyTorch installation.
   You can install them together at [pytorch.org](https://pytorch.org) to make sure of this
 - OpenCV is optional and needed by demo and visualization
 
-### Build Detectron2 from Source
+### Usage
+The following steps are required for setting up DETR:
+`git clone https://github.com/facebookresearch/detr.git`
 
-gcc & g++ ≥ 5 are required. [ninja](https://ninja-build.org/) is recommended for faster build.
-After having them, run:
-```
-python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
-# (add --user if you don't have permission)
-
-# Or, to install it from a local clone:
-git clone https://github.com/facebookresearch/detectron2.git
-python -m pip install -e detectron2
-
-# Or if you are on macOS
-CC=clang CXX=clang++ python -m pip install ......
-```
-
+Install pycocotools(for evaluation on COCO):
+`pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'`
 
  
 ## Task List
