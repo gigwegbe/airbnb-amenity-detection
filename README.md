@@ -7,7 +7,8 @@ Implementation of Airbnb's Amenity Detection using Detection Transformer(DETR). 
 ## Installation and Requirements
 Run the requirements file to install dependencies. 
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
+pip install pytorch torchvision scipy
 ```
 
 - Linux or macOS with Python ≥ 3.6
