@@ -32,7 +32,7 @@ pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=Pyth
 - [x] Test with random sample images. - [Test_Notebook](https://github.com/gigwegbe/airbnb-amenity-detection/blob/master/test_images.ipynb)
 - [x] Data collection -  obtain data from Google Open Images Dataset V4 - [Link](https://storage.googleapis.com/openimages/web/download.html) - [Dataset Notebook](https://github.com/gigwegbe/airbnb-amenity-detection/blob/master/dataset_notebook.ipynb)
 - [ ] Train an object detection model on this data using codebase from DeTr repo.
-- [ ] Build an interactive web interface using Streamlit 
+- [ ] Build an interactive web interface using React JS
 - [ ] Dockerizing the app using Docker
 - [ ] Deploy to GCP/AWS 
 
